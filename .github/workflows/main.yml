@@ -25,7 +25,7 @@ jobs:
         file: ./kube-news/src/Dockerfile
         push: true
         tags: |
-          phlbrz/kube-news:${{ github.run_number }}
+          phlbrz/kube-news:v${{ github.run_number }}
           phlbrz/kube-news:latest
   CD:
     runs-on: ubuntu-latest
